@@ -28,12 +28,20 @@ button[0].addEventListener('click', function(){
 
 
 //fonctionnalité 3 
-let editButton = document.getElementsByClassName("btn-sm btn-outline-secondary")[0];
-editButton.addEventListener("click", redEdit);
-function redEdit() {
-    let element = document.querySelector("p.card-text");
-    element.classList.toggle("text-danger");
+// let editButton = document.getElementsByClassName("btn-sm btn-outline-secondary")[0];
+// editButton.addEventListener("click", redEdit);
+// function redEdit() {
+//     let element = document.querySelector("p.card-text");
+//     element.classList.toggle("text-danger");
+// }
+
+let card = document.getElementsByClassName("card-body")[0];
+function changeColor (){
+    card.getElementsByTagName("p")[0].style.color = 'red' ;
 }
+
+card.addEventListener ("click", changeColor)
+
 
 
 //fonctionnalité 4
