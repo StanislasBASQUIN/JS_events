@@ -11,4 +11,4 @@ _ Second JavaScript Exercises_
 - [:fire: Stanislas BASQUIN](https://github.com/StanislasBASQUIN)
 
 
-Pour tester chacun ces scripts, il faut ouvrir exo_events.html dans le navigateur, puis éditer avec le Fichier script.js
+Pour tester ces scripts, il faut ouvrir exo_events.html dans le navigateur, puis suivre les instructions correspondant aux fonctionnalités décrites dans le Fichier script.js
