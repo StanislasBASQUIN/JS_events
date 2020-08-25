@@ -55,8 +55,16 @@ function greenEdit() {
 
 
 //Fonctionnalité 5
+let navbar = document.getElementsByClassName("navbar")[0];
+let bootsLink = document.getElementsByTagName("link")[0];
 
-('link[rel=stylesheet]')[0].disabled=true;
+navbar.addEventListener("dblclick", function(){
+  if (bootsLink.rel == "stylesheet") {
+    bootsLink.rel = "styleDisabled";
+  } else {
+    bootsLink.rel = "stylesheet";
+  }
+});
 
 //Fonctionnalité 6
 
