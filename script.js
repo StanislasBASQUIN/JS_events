@@ -52,13 +52,20 @@ function greenEdit() {
     let element2 = document.querySelectorAll("p.card-text")[1];
     element2.classList.toggle("text-success");
 }
+// Fonctionnalité 5 : 
 
+let navbar = document.getElementsByClassName("navbar")[0];
+let bootsLink = document.getElementsByTagName("link")[0];
 
-//Fonctionnalité 5
+navbar.addEventListener("dblclick", function(){
+  if (bootsLink.rel == "stylesheet") {
+    bootsLink.rel = "styleDisabled";
+  } else {
+    bootsLink.rel = "stylesheet";
+  }
+});
 
-('link[rel=stylesheet]')[0].disabled=true;
-
-//Fonctionnalité 6
+// Fonctionnalité 6 :
 
 
 //Fonctionnalité 7
